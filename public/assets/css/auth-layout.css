@@ -1,0 +1,89 @@
+/* Geral */
+.container {
+    max-width: 1300px;
+}
+:root {
+    --primary-color: #0077B5;
+    --dark-color: #000000;
+    --light-color: #F7F9FB;
+}
+body {
+    background-color: var(--light-color);
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 100px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+/* Main */
+main {
+    width: 100%;
+    height: calc(100vh - 315px);
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #c4c4c4;
+    width: 100%;
+    height: 215px;
+    background-color: var(--light-color);
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer strong {
+    font-size: 16px;
+}
+
+footer .btn-area .button-custom {
+    width: 100%;
+    max-width: 170px;
+    height: 32px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+footer .btn-area .button-custom a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .btn-area .custom-primary {
+    background-color: #0077B5;
+}
+
+footer .btn-area .custom-primary a {
+    color: #fff;
+}
+
+footer .btn-area .custom-secondary {
+    border: 1px solid #0077B5;
+}
+
+footer .btn-area .custom-secondary a {
+    color: #0077B5;
+}

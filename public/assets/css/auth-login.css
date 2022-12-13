@@ -1,0 +1,30 @@
+/* Geral */
+.login-area {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+:root {
+    --primary-color: #0077B5;
+    --dark-color: #000000;
+    --light-color: #F7F9FB;
+}
+
+/* Login */
+.login {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.login .header {
+    margin-bottom: 20px;
+}
+
+.login .form-area {
+
+}
