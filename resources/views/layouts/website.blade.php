@@ -88,7 +88,86 @@
     <!-- end content -->
 
     <!-- footer -->
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="{{ URL::to('assets/image/logos/logo-large.png') }}" alt="Linkedin" title="Linkedin">
+                </div>
+
+                <div class="col-md-6">
+                    <p><strong>Navigation</strong></p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="#">advertising</a>
+                                </li>
+                                <li>
+                                    <a href="#">Small Business</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li>
+                                    <a href="#">Talent Solutions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Marketing Solutions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sales Solutions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Safe Center</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li>
+                                    <a href="#">Community Guidelines</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy & Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mobile App</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <p><strong>Fast access</strong></p>
+                    <div class="btn-area">
+                        <div class="button-custom custom-primary">
+                            <a href="#">Questions? <span><i class="fa-regular fa-circle-question"></i></span></a>
+                        </div>
+                        <div class="button-custom custom-secondary">
+                            <a href="#">Settings <span><i class="fa-solid fa-gear"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <p><strong>Languages</strong></p>
+                    <select name="languages" id="languages" class="form-control">
+                        <option value="en">English</option>
+                        <option value="pt">Português</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- end footer -->
 
     <!-- js -->
