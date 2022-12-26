@@ -1,0 +1,46 @@
+/** Geral **/
+:root {
+    --primary-color: #076EA4;
+    --primary-light: #E8F0F8;
+    --body-background-color: #F7F9FB;
+    --background-light: #F6F7FA;
+    --background-dark: #E8F0F8;
+    --text-primary: #0275B1;
+    --text-dark: #181818;
+}
+
+/** Create Feed **/
+.create-feed {
+    width: 100%;
+    background: #FFF;
+    padding: 25px 30px;
+    margin: 15px 0;
+    position: relative;
+}
+.create-feed label {
+    margin-bottom: 20px;
+}
+.create-feed textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    border-top: 1px solid #EEE;
+    padding: 10px;
+}
+.create-feed .btn-area {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+.create-feed .btn-area ul {
+    display: flex;
+}
+.create-feed .btn-area ul li {
+    margin: 0 5px;
+}
+.create-feed .btn-area ul li button  {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
